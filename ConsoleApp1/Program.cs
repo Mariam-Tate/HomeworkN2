@@ -9,6 +9,7 @@ namespace ConsoleApp1
             Console.WriteLine("Enter your name");
             var name = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.Blue;
+            Console.BackgroundColor = ConsoleColor.Red;
             Console.WriteLine(name);
             Console.ResetColor();
         }
